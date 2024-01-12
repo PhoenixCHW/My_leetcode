@@ -1,2 +1,2 @@
-# My_leetcode
-My Leetcode record
+這邊是用來記錄我寫過的leetcode
+還不是很會用
