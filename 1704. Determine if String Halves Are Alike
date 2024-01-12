@@ -1,1 +1,21 @@
 
+
+
+
+
+```python
+class Solution:
+    def halvesAreAlike(self, s: str) -> bool:
+        Vowels = ("a","e","i","o","u","A","E","I","O","U")
+        s1, s2 =0,0
+        for i in range(int(len(s)/2)):
+            if s[i] in Vowels:
+                s1 += 1
+            if s[-1*i-1] in Vowels:
+                s2 += 1
+        
+        if s1 == s2:
+            return True
+        else:
+            return False
+```
